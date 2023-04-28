@@ -10,13 +10,19 @@ body{
 /*Custom properties*/  
 
 /*Generics*/
+h2{
+    color: white;
+    font-size: 16px;
+    display: inline;
+    padding-top: 15px;
+}
 footer{
     min-height: 80px;
     background-color: black;
 }
 /*Utilties*/
 .sidebar{
-    background-color: orange;
+    background-color: #ff6900;
     min-height: 50px;
 }
 .conteiner{
@@ -52,7 +58,6 @@ footer{
 }
 /*Sidebar*/
 #sidenav{
-    background-color: red;
     min-height: 50px;
     max-width: 1260px;
     margin: 0 auto;
@@ -62,10 +67,23 @@ footer{
 .items_nav{
     min-height: 50px;
     width: 200px;
-    background-color: gold;
     text-align: center;
 }
-
+#gender{
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    max-width: 150px;
+    padding-top: 8px;
+}
+#nav_icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 25px;
+    color: white;
+}
 /*Cards*/
 .description{
     height: 70px;

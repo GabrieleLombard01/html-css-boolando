@@ -10,7 +10,9 @@ body{
 /*Custom properties*/  
 
 /*Generics*/
-nav{
+footer{
+    min-height: 80px;
+    background-color: black;
 }
 /*Utilties*/
 .sidebar{
@@ -41,6 +43,12 @@ nav{
     background-color: rgb(237, 239, 194);
     position: absolute;
     bottom: 100px;
+}
+.foot_conteiner{
+    max-width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 /*Sidebar*/
 #sidenav{
@@ -75,3 +83,13 @@ nav{
     top: 10px;
 }
 /*Footer*/
+#foot_details{
+    width: 300px;
+    height: 80px;
+    background-color: rgb(67, 67, 67);
+}
+#foot_social{
+    width: 300px;
+    height: 80px;
+    background-color: rgb(67, 67, 67);
+}

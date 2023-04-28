@@ -10,11 +10,18 @@ body{
 /*Custom properties*/  
 
 /*Generics*/
+h1{
+    font-size: 20px;
+}
 h2{
     color: white;
     font-size: 16px;
     display: inline;
     padding-top: 15px;
+}
+h3{
+    font-weight: normal;
+    font-size: 16px;
 }
 footer{
     min-height: 80px;
@@ -42,6 +49,15 @@ footer{
     background-color: rgb(168, 168, 246);
     position: relative;
     
+}
+.old_price{
+    text-decoration: line-through;
+    color: black;
+    font-weight: normal;
+}
+.price{
+    color: red;
+    font-weight: bold;
 }
 .card_tag{
     height: 30px;
@@ -89,9 +105,11 @@ footer{
 .description{
     height: 70px;
     width: 400px;
-    background-color: rgb(177, 177, 177);
+    background-color: white;
     position: absolute;
     bottom: 0;
+    padding-top: 5px;
+    line-height: 22px;
 }
 .hearth{
     height: 60px;

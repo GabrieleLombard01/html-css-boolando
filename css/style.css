@@ -8,7 +8,9 @@ body{
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 /*Custom properties*/  
-
+.fa-solid:hover{
+    color: red;
+}
 /*Generics*/
 h1{
     font-size: 20px;
@@ -33,7 +35,6 @@ footer{
     min-height: 50px;
 }
 .conteiner{
-    background-color: rgb(196, 221, 244);
     max-width: 1260px;
     min-height: 900px;
     margin: 0 auto;

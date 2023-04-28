@@ -30,7 +30,14 @@ nav{
     height: 500px;
     background-color: rgb(168, 168, 246);
     position: relative;
-
+    
+}
+.card_tag{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(237, 239, 194);
+    position: absolute;
+    bottom: 100px;
 }
 /*Sidebar*/
 #sidenav{

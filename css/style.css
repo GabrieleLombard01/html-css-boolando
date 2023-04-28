@@ -38,7 +38,7 @@ footer{
 }
 .card{
     width: 400px;
-    height: 500px;
+    height: 640px;
     background-color: rgb(168, 168, 246);
     position: relative;
     
@@ -85,6 +85,7 @@ footer{
     color: white;
 }
 /*Cards*/
+
 .description{
     height: 70px;
     width: 400px;

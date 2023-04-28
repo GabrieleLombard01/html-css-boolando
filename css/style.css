@@ -62,7 +62,6 @@ footer{
 .card_tag{
     height: 30px;
     width: 200px;
-    background-color: rgb(237, 239, 194);
     position: absolute;
     bottom: 100px;
 }
@@ -130,6 +129,18 @@ footer{
     text-align: center;
     font-weight: bold;
     padding-top: 7px;
+    display: inline-block;
+}
+.green_tag{
+    height: 30px;
+    width: 120px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 7px;
+    display: inline-block;
+    
 }
 /*Footer*/
 #foot_details{

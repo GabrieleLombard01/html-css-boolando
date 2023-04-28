@@ -14,6 +14,30 @@ body{
 a:hover{
     text-decoration: underline;
 }
+#male_1:hover {
+    opacity: 0;
+    width: 400px;
+}
+#female_1:hover {
+    opacity: 0;
+    width: 400px;
+}
+#female_2:hover {
+    opacity: 0;
+    width: 400px;
+}
+#male_2:hover {
+    opacity: 0;
+    width: 400px;
+}
+#female_3:hover {
+    opacity: 0;
+    width: 400px;
+}
+#female_4:hover {
+    opacity: 0;
+    width: 400px;
+}
 /*Generics*/
 h1{
     font-size: 20px;
@@ -109,7 +133,30 @@ footer{
     color: white;
 }
 /*Cards*/
-
+.first_square{
+    background-image: url("../img/1b.webp");
+    background-size: 400px;
+}
+.second_square{
+    background-image: url("../img/2b.webp");
+    background-size: 400px;
+}
+.third_square{
+    background-image: url("../img/3b.webp");
+    background-size: 400px;
+}
+.fourth_square{
+    background-image: url("../img/4b.webp");
+    background-size: 400px;
+}
+.fifth_square{
+    background-image: url("../img/5b.webp");
+    background-size: 400px;
+}
+.sixth_square{
+    background-image: url("../img/6b.webp");
+    background-size: 400px;
+}
 .description{
     height: 70px;
     width: 400px;

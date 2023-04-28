@@ -25,8 +25,12 @@ h3{
     font-weight: normal;
     font-size: 16px;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 footer{
-    min-height: 80px;
+    min-height: 100px;
     background-color: black;
 }
 /*Utilties*/
@@ -47,9 +51,7 @@ footer{
 .card{
     width: 400px;
     height: 640px;
-    background-color: rgb(168, 168, 246);
     position: relative;
-    
 }
 .old_price{
     text-decoration: line-through;
@@ -145,12 +147,16 @@ footer{
 }
 /*Footer*/
 #foot_details{
-    width: 300px;
+    width: 450px;
+    height: 80px;
+}
+#foot_social{
+    width: 450px;
     height: 80px;
     background-color: rgb(67, 67, 67);
 }
-#foot_social{
-    width: 300px;
-    height: 80px;
-    background-color: rgb(67, 67, 67);
+#foot_name{
+    display: block;
+    line-height: 35px;
+    font-size: 20px;
 }

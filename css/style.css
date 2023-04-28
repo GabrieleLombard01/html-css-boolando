@@ -19,11 +19,14 @@ nav{
 }
 .conteiner{
     background-color: rgb(196, 221, 244);
-    max-width: 1300px;
+    max-width: 1260px;
     min-height: 900px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 .card{
     width: 400px;

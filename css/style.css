@@ -10,28 +10,58 @@ body{
 /*Custom properties*/  
 
 /*Generics*/
-
+nav{
+}
 /*Utilties*/
 .sidebar{
     background-color: orange;
-    min-height: 60px;
+    min-height: 50px;
+}
+.conteiner{
+    background-color: rgb(196, 221, 244);
+    max-width: 1300px;
+    min-height: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(168, 168, 246);
+    position: relative;
+
 }
 /*Sidebar*/
 #sidenav{
     background-color: red;
-    min-height: 60px;
+    min-height: 50px;
     max-width: 1300px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 .items_nav{
-    min-height: 60px;
+    min-height: 50px;
     width: 300px;
     background-color: gold;
     text-align: center;
 }
 
 /*Cards*/
-
+.description{
+    height: 70px;
+    width: 400px;
+    background-color: rgb(177, 177, 177);
+    position: absolute;
+    bottom: 0;
+}
+.hearth{
+    height: 60px;
+    width: 50px;
+    background-color: rgb(245, 209, 209);
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
 /*Footer*/

@@ -11,6 +11,9 @@ body{
 .fa-solid:hover{
     color: red;
 }
+a:hover{
+    text-decoration: underline;
+}
 /*Generics*/
 h1{
     font-size: 20px;
@@ -31,7 +34,7 @@ a{
 }
 footer{
     min-height: 100px;
-    background-color: black;
+    background-color: #1a1a1a;
 }
 /*Utilties*/
 .sidebar{
@@ -73,6 +76,9 @@ footer{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+.fa-brands{
+    color: white;
 }
 /*Sidebar*/
 #sidenav{
@@ -143,7 +149,6 @@ footer{
     font-weight: bold;
     padding-top: 7px;
     display: inline-block;
-    
 }
 /*Footer*/
 #foot_details{
@@ -153,7 +158,7 @@ footer{
 #foot_social{
     width: 450px;
     height: 80px;
-    background-color: rgb(67, 67, 67);
+    text-align: center;
 }
 #foot_name{
     display: block;

@@ -122,6 +122,15 @@ footer{
     justify-content: center;
     padding-top: 30px;
 }
+.red_tag{
+    height: 30px;
+    width: 60px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 7px;
+}
 /*Footer*/
 #foot_details{
     width: 300px;

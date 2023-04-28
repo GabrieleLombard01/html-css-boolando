@@ -45,7 +45,6 @@ a:hover{
     width: 400px;
 }
 /*Generics*/
-
 h1{
     font-size: 20px;
 }
@@ -138,7 +137,7 @@ footer{
 }
 #nav_icons{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 10px;
     padding-top: 25px;
     color: white;
